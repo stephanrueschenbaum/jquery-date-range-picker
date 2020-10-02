@@ -1032,7 +1032,7 @@
         return this;
 
         function IsOwnDatePickerClicked(evt, selfObj) {
-            return (selfObj.contains(evt.target) || evt.target == selfObj || (selfObj.childNodes != undefined && $.inArray(evt.target, selfObj.childNodes) >= 0));
+            return selfObj && (selfObj.contains(evt.target) || evt.target == selfObj || (selfObj.childNodes != undefined && $.inArray(evt.target, selfObj.childNodes) >= 0));
         }
 
         function init_datepicker() {

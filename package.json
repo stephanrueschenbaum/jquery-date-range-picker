@@ -28,10 +28,6 @@
     "version": "gulp && git add -A dist",
     "postversion": "git push && git push --tags"
   },
-  "engines": {
-    "node": "0.12.x",
-    "npm": "~3.9.2"
-  },
   "author": "longbill",
   "contributors": [],
   "dependencies": {
